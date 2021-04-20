@@ -1,0 +1,19 @@
+#pragma once
+
+#include <iostream>
+#include <regex>
+
+#include "string/string.hpp"
+#include "numerics/numbers.hpp"
+#include "numerics/matrix.hpp"
+#include "numerics/vector2.hpp"
+#include "numerics/vector3.hpp"
+#include "numerics/vector4.hpp"
+#include "memory/unique_pointer.hpp"
+#include "memory/shared_pointer.hpp"
+#include "collections/array.hpp"
+#include "collections/list.hpp"
+#include "collections/hash_map.hpp"
+#include "collections/hash_set.hpp"
+
+using RendererId = U32;
